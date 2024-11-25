@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Oxanium:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jaro", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background: url(img/cavaleiros-do-zodiaco-hyoga-shun-seiya-shiryu-ikki.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: -400px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 48px;
+}
+header .logo{
+    width: 150px;
+}
+.navigation ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.navigation ul li a{
+    color: goldenrod;
+    font-size: 18px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: all .6s;
+}
+.navigation ul li a:hover{
+    border-bottom: 2px solid #138;
+}
+.navigation .search{
+    width: 22px;
+    cursor: pointer;
+    filter: invert(1);
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 50em;
+    margin-top: 1.5em;
+}
+main section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 200px;
+}
+main section .caveleiros{
+    width: 100px;
+    height: 100px;
+    margin: 3em 0;
+    margin-left: 500px;
+
+}
+main section .btn-box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 300px;
+    margin-top: -100;
+}
+.btn-box .btn{
+    padding: 20px 45px;
+    background: #138;
+    color: #fff;
+    margin-bottom: 2em;
+    border-bottom: 2px solid #fff;
+    transform: all .3s;
+    margin-top: -200px;
+}
+.btn-box .btn:hover{
+    background: #2d3846;
+}
